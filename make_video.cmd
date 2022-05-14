@@ -1,0 +1,1 @@
+ffmpeg -framerate 25 -i ./CrossPlot/out/%%04d.png -vcodec libx264 -pix_fmt yuv420p -vf scale=1920x1080 ./CrossPlot/out/CrossPlot.mp4

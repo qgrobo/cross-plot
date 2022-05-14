@@ -1,0 +1,1 @@
+ffmpeg -f image2 -framerate 25 -i ./CrossPlot/out/%%04d.png -s 480x270 ./CrossPlot/out/CrossPlot.gif
