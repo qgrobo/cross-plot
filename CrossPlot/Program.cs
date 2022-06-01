@@ -62,7 +62,7 @@ namespace Program
         /// <summary>
         /// Array to save the randomized values for layered diagrams.
         /// </summary>
-        private static float[] _values = new float[] { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        private static float[] _values = new float[9];
 
         /// <summary>
         /// Random generator of jitter for the deep layers.
